@@ -17,7 +17,16 @@ namespace LabDemo1_delegate
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //instantiation, creation of delegate objects
+            GreetingDelegate firstDel, secondDel;
+            //registeration
+            firstDel = new GreetingDelegate(Hello);
+            secondDel = new GreetingDelegate(Goodbye);
+
+            //calling methods via the delegate
+            firstDel("Nazif");
+            secondDel("Sahim");
+
         }
     }
 }
