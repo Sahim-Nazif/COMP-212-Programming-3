@@ -8,12 +8,21 @@ namespace Multicast_Delegate_Example
 
         public static double Add( double a, double b)
         {
-            Console.WriteLine("The result of addition " + Math.Round(a + b));
+            Console.WriteLine("The result of addition is " + Math.Round(a + b));
             return (a + b);
+        }
+        public static double Divide(double a, double b)
+        {
+            Console.WriteLine("The result of division is " + a/b );
+            return (a / b);
         }
         static void Main(string[] args)
         {
-           
+            PerformCalculation addition = Add;
+            addition(22.44, 32.89);
+
+            
+
         }
     }
 }
