@@ -27,6 +27,23 @@ namespace LabDemo1_delegate
             firstDel("Nazif");
             secondDel("Sahim");
 
+            //second way of instantiation
+            //firstDel=Hello;
+            //SecondDel=GoodBye;
+
+            //Multicasting Delegate
+
+            firstDel += secondDel;
+
+            //passing delegate to a method
+            GreetingMethod(firstDel, "Nazif Sahim");
+
+        }
+        //passing delegate as parameter to a method
+        public static void GreetingMethod(GreetingDelegate greetingDelegate, string name)
+        {
+            Console.WriteLine("The greeting is ");
+            greetingDelegate(name);
         }
     }
 }
