@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabDemo1_delegate", "LabDemo1_delegate\LabDemo1_delegate.csproj", "{1065E3AD-B9C4-480A-8157-0AE83C2832D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabDemo1_delegate", "LabDemo1_delegate\LabDemo1_delegate.csproj", "{1065E3AD-B9C4-480A-8157-0AE83C2832D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicast_Delegate_Example", "Multicast_Delegate_Example\Multicast_Delegate_Example.csproj", "{FDD6D2DC-EFAA-4AAE-A459-F52080A8E684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1065E3AD-B9C4-480A-8157-0AE83C2832D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1065E3AD-B9C4-480A-8157-0AE83C2832D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1065E3AD-B9C4-480A-8157-0AE83C2832D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD6D2DC-EFAA-4AAE-A459-F52080A8E684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD6D2DC-EFAA-4AAE-A459-F52080A8E684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD6D2DC-EFAA-4AAE-A459-F52080A8E684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD6D2DC-EFAA-4AAE-A459-F52080A8E684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
