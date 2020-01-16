@@ -13,5 +13,27 @@ namespace Lab_Demo2_EventDelegate
 
         public event BeforePrint beforePrintEvent;
 
+        public PrintHelper()
+        {
+
+        }
+
+        public void PrintNumber (int num)
+        {
+            if (beforePrintEvent != null)
+                beforePrintEvent.Invoke();
+
+            Console.WriteLine("Number : " + num);
+
+        }
+        public void PrintMoney (int amount)
+        {
+            if (beforePrintEvent != null)
+                beforePrintEvent.Invoke();
+
+            Console.WriteLine("The Amount is : " + amount);
+
+        }
+
     }
 }
