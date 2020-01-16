@@ -31,13 +31,6 @@ namespace Multicast_Delegate_Example
             //we can also do the following 
             multiCal -=division;
             multiCal += addition;
-
-
-
-
-
-            
-
         }
     }
 }
