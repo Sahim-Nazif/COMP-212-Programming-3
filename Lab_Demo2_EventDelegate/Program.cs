@@ -6,6 +6,11 @@ namespace Lab_Demo2_EventDelegate
     {
         static void Main(string[] args)
         {
+
+            Number number = new Number(1000000);
+            number.PrintMoney();
+            number.PrintNumber();
+            Console.ReadKey();
            
         }
     }
